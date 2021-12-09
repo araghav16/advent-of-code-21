@@ -102,19 +102,6 @@ def find_unq_seq(signal_stream):
                 unique_sec_occurrence+=1
                 
     return unique_sec_occurrence
-    digits = {
-        '0': 'abcdef',
-        '1': 'cf',
-        '2': 'acdeg',
-        '3': 'acdfg',
-        '4': 'bcdf',
-        '5': 'abdfg',
-        '6': 'abdefg',
-        '7': 'acf',
-        '8': 'abcdefg',
-        '9': 'abcdfg'
-    }
-
 
 def sortSignalStream(pattern):
     pattern_list = pattern.split(' ')
