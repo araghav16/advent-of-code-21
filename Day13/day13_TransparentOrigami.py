@@ -1,4 +1,4 @@
-#https://adventofcode.com/2021/day/12
+#https://adventofcode.com/2021/day/14
 
 import os, sys
 import numpy as np
@@ -89,6 +89,5 @@ if __name__ == "__main__":
     dots_grid= correctChar(dots_grid)
     print(dots_grid)
 
-    
     # result = countDots(dots_grid)
     # print("Part 1: {0}".format(result))
